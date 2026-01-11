@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Home Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Smart Home</h1>
+  <p>Controle inteligente dos seus dispositivos</p>
+</header>
+
+<main class="dashboard">
+
+  <div class="card">
+    <h2>📺 TV</h2>
+    <p>Status: <span class="on">Ligada</span></p>
+    <button onclick="toggle(this)">Desligar</button>
+  </div>
+
+  <div class="card">
+    <h2>❄️ Ar Condicionado</h2>
+    <p>Status: <span class="off">Desligado</span></p>
+    <button onclick="toggle(this)">Ligar</button>
+  </div>
+
+  <div class="card">
+    <h2>🧺 Lavadora</h2>
+    <p>Status: <span class="off">Parada</span></p>
+    <button onclick="toggle(this)">Iniciar</button>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 - Smart Home</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
 
